@@ -1,0 +1,16 @@
+服务器上需要新建以下几个文件夹
+1、存放原始文件的目录 见properties中的 ORI_SRC_FILE_DIR 配置
+2、基础目录 可以调整 见properties中的 PATH_PREIX 配置
+3、PATH_PREIX下需要有几个目录
+  3.1 /data
+  3.2 /result
+      /result/click_train/
+      /result/click_test/
+      /result/buy_train/
+      /result/buy_test/
+  3.3 /record
+
+4、PATH_PREIX/data/目录下需要放原始的 餐厅信息表.txt 和订单信息表.txt
+
+
+FeatureSelectPredictor 是循环选取特征的类
